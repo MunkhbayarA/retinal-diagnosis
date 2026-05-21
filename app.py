@@ -60,12 +60,7 @@ if app_mode == "Home":
             </style>
             """, unsafe_allow_html=True)
 
-    st.markdown('''
-        <div class="text-container">
-            <h2>OCT Scan Analysis Platform</h2>
-            <p>Machine Learning 2025-2026 Project.</p>
-        </div>
-    ''', unsafe_allow_html=True)
+    st.markdown('<div class="text-container"><h2>OCT Scan Analysis Platform</h2><p>Machine Learning 2025-2026 Project.</p></div>', unsafe_allow_html=True)
 
 elif app_mode == "About":
     st.header("About the Project")
